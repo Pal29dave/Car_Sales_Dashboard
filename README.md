@@ -1,6 +1,7 @@
 Car Sales Analytics Dashboard
-📌 Project Overview
 
+
+📌 Project Overview
 This project presents a comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using 23,907 transactional records, I built an interactive Tableau Dashboard to visualize sales performance across time, regions, and car models.
 
 The goal is to provide stakeholders with actionable insights on Weekly Sales Trends, YTD performance, and Manufacturer Market Share.
