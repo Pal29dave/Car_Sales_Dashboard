@@ -1,12 +1,12 @@
 Car Sales Analytics Dashboard
 
 
-📌 Project Overview
-This project presents a comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using 23,907 transactional records, I built an interactive Tableau Dashboard to visualize sales performance across time, regions, and car models.
+📌 Project Overview :
+ This project presents a comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using 23,907 transactional records, I built an interactive Tableau Dashboard to visualize sales performance across time, regions, and car models.
 
 The goal is to provide stakeholders with actionable insights on Weekly Sales Trends, YTD performance, and Manufacturer Market Share.
 
-📂 Dataset Description
+📂 Dataset Description :
 
 Source: Car Sales.csv (raw transactional data)
 Volume: 23,907 rows
@@ -26,7 +26,7 @@ Microsoft Excel – initial data inspection and cleaning
 
 Data Processing – transformations for YTD metrics and time intelligence
 
-🔄 Project Workflow
+🔄 Project Workflow :
 1. Data Loading
 
 Imported the raw CSV into Tableau.
@@ -51,7 +51,7 @@ Filters for Dealer Region, Company, and Time Period
 
 Intuitive navigation and clean color theme
 
-📊 Dashboard Components
+📊 Dashboard Components :
 
 YTD Key Metrics – Total Sales, Average Price, Cars Sold
 
@@ -63,7 +63,7 @@ Company-Wise Performance – bar chart ranking manufacturers by revenue
 
 Regional Map – geospatial distribution of sales across regions
 
-📈 Key Insights
+📈 Key Insights :
 Financial Performance
 
 YTD Total Sales: $386M
