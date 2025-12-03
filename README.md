@@ -1,102 +1,84 @@
- Car_Sales_Dashboard
 Car Sales Analytics Dashboard
-
 📌 Project Overview
 
-This project involves the comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using a dataset of 23,907 transactional records, I developed a dynamic Tableau Dashboard to visualize sales performance across different time frames, regions, and car models.
+This project presents a comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using 23,907 transactional records, I built an interactive Tableau Dashboard to visualize sales performance across time, regions, and car models.
 
-The goal of this analysis is to provide stakeholders with actionable insights regarding Weekly Sales Trends, Year-to-Date (YTD) performance, and manufacturer market share.
+The goal is to provide stakeholders with actionable insights on Weekly Sales Trends, YTD performance, and Manufacturer Market Share.
 
 📂 Dataset Description
 
-The dataset consists of historical sales transactions with the following characteristics:
+Source: Car Sales.csv (raw transactional data)
+Volume: 23,907 rows
+Dimensions: 16 columns
 
-Volume: 23,907 Rows
-
-Dimensions: 16 Columns
-
-Data Source: Car Sales.csv (Raw transactional data)
-
-Key Features
-
-The dataset includes the following 16 columns, organized by category:
-
-Category
-
-Associated Columns
-
-Transaction Details
-
-Car_id, Date, Price
-
-Customer Data
-
-Customer Name, Gender, Annual Income, Phone Number
-
-Car Specifications
-
-Company, Model, Engine, Transmission, Color, Body Style
-
-Dealer Information
-
-Dealer Name, Dealer Number, Dealer Region
-
+Key Dataset Categories
+Category	Columns
+Transaction Details	Car_id, Date, Price
+Customer Data	Customer Name, Gender, Annual Income, Phone Number
+Car Specifications	Company, Model, Engine, Transmission, Color, Body Style
+Dealer Information	Dealer Name, Dealer Number, Dealer Region
 🛠 Tools & Technologies
 
-Tableau Desktop: Used for data visualization, calculated fields, and dashboard interactivity.
+Tableau Desktop – dashboard creation, calculated fields, visual analytics
 
-Microsoft Excel: Used for initial data inspection and preliminary cleaning.
+Microsoft Excel – initial data inspection and cleaning
 
-Data Processing: Data cleaning and transformation to ensure accuracy in YTD calculations.
+Data Processing – transformations for YTD metrics and time intelligence
 
-🔄 Project Steps
+🔄 Project Workflow
+1. Data Loading
 
-Data Loading: Imported the raw CSV dataset into Tableau.
+Imported the raw CSV into Tableau.
 
-Data Cleaning:
+2. Data Cleaning
 
-Validated data types (converting dates, ensuring numerical consistency for prices).
+Converted data types (dates, prices)
 
-Checked for and handled missing values in the Customer Name and Region columns.
+Addressed missing values in Customer Name and Region
 
-Data Modeling:
+3. Data Modeling
 
-Created Calculated Fields for Time Intelligence (YTD Sales, YoY Growth).
+Built calculated fields for YTD Sales and YoY Growth
 
-Grouped car models by Body Style for categorical analysis.
+Grouped car models by Body Style for categorical insights
 
-Dashboard Design:
+4. Dashboard Design
 
-Designed a grid layout focusing on high-level KPIs at the top and granular details at the bottom.
+Grid-based layout with high-level KPIs at the top
 
-Implemented filters for Dealer Region, Company, and Time Period.
+Filters for Dealer Region, Company, and Time Period
 
-📊 Dashboard Contents
+Intuitive navigation and clean color theme
 
-The Tableau dashboard includes the following visualizations:
+📊 Dashboard Components
 
-YTD Key Metrics: A scorecard displaying Total Sales, Average Price, and Cars Sold.
+YTD Key Metrics – Total Sales, Average Price, Cars Sold
 
-Weekly Sales Trend: A line chart visualizing the fluctuation of sales over weeks to identify seasonality.
+Weekly Sales Trend – line chart showing seasonal patterns
 
-Sales by Body Style: A donut chart showing the distribution of sales (SUV vs. Sedan vs. Hatchback).
+Sales by Body Style – donut chart comparing SUVs, Sedans, Hatchbacks
 
-Company-Wise Performance: A horizontal bar chart ranking manufacturers by revenue.
+Company-Wise Performance – bar chart ranking manufacturers by revenue
 
-Regional Map: A geospatial view of sales distribution across dealer regions.
+Regional Map – geospatial distribution of sales across regions
 
-📈 Key Insights & Results
+📈 Key Insights
+Financial Performance
 
-Based on the analysis of the 23,907 records, the following insights were derived:
+YTD Total Sales: $386M
 
-Financial Performance: The Year-to-Date (YTD) Total Sales amounted to $386M, with a YTD Average Car Price of $28,050.
+YTD Average Price: $28,050
 
-Trend Analysis: Sales demonstrated a consistent upward trend, with a 15% spike observed in weeks 35–40 (likely aligned with end-of-year dealer promotions).
+Trend Analysis
 
-Top Performers:
+Consistent upward trend throughout the year
 
-Body Style: SUVs dominated the market, accounting for 42% of total revenue, followed by Sedans at 35%.
+15% sales spike in Weeks 35–40, likely tied to year-end promotions
 
-Manufacturer: Chevrolet and Ford were the top-performing companies, collectively contributing to 18% of total volume.
+Top Performers
 
-Color Preference: "Black" and "Pale White" were the most popular car colors, correlating with higher resale value models.
+Body Style: SUVs lead with 42% of total revenue; Sedans follow at 35%
+
+Manufacturer: Chevrolet & Ford jointly contribute 18% of total sales volume
+
+Color Preference: “Black” and “Pale White” are the most purchased colors, aligning with high-resale models
