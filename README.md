@@ -1,4 +1,6 @@
 # Car_Sales_Dashboard
+Car Sales Analytics Dashboard
+
 📌 Project Overview
 
 This project involves the comprehensive analysis of automotive sales data to uncover key performance indicators (KPIs) and market trends. Using a dataset of 23,907 transactional records, I developed a dynamic Tableau Dashboard to visualize sales performance across different time frames, regions, and car models.
@@ -17,23 +19,25 @@ Data Source: Car Sales.csv (Raw transactional data)
 
 Key Features
 
+The dataset includes the following 16 columns, organized by category:
+
 Category
 
-Columns
+Associated Columns
 
-Transaction Info
+Transaction Details
 
-Date, Price, Car_id
+Car_id, Date, Price
 
-Customer Profile
+Customer Data
 
 Customer Name, Gender, Annual Income, Phone Number
 
-Vehicle Specs
+Car Specifications
 
 Company, Model, Engine, Transmission, Color, Body Style
 
-Dealer Info
+Dealer Information
 
 Dealer Name, Dealer Number, Dealer Region
 
@@ -96,7 +100,3 @@ Body Style: SUVs dominated the market, accounting for 42% of total revenue, foll
 Manufacturer: Chevrolet and Ford were the top-performing companies, collectively contributing to 18% of total volume.
 
 Color Preference: "Black" and "Pale White" were the most popular car colors, correlating with higher resale value models.
-
-
-
-
